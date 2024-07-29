@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(61, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left h1{
+    color: white;
+    font-size: 50px;
+}
+.left h2{
+    color: white;
+    margin-right:48% ;
+}
+.left p{
+    color: rgb(148, 102, 15);
+    width: 70%;
+}
+.left button{
+    background-color: blue;
+    color: white;
+    height: 8%;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(28, 46, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right h3{
+    color: white;
+    font-size: 30px;
+}
+.right p{
+    color: white;
+}
+.right input{
+    background-color: white;
+    color: black;
+}
+.right button{
+    background-color:rgb(148, 102, 15) ;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+
+}
+.right p{
+
+}
